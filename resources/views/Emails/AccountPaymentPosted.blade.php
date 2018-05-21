@@ -1,0 +1,1 @@
+A payment has just been posted to your account at <a href="https://allagandata.com/">AllaganData.com</a> for {{ $PaymentAmount }}. This is just a notification for your records.

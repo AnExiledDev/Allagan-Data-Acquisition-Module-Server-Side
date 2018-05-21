@@ -1,0 +1,14 @@
+site_name: Allagan Data Acquisition Module
+site_description: Documentation for the Allagan Data Acquisition Module (ADAM) plugin for RebornBuddy.
+pages:
+  - Home: 'index.md'
+  - FAQ: 'FrequentlyAskedQuestions.md'
+  - Development Tracker: 'DevelopmentTracker.md'
+  - Using ADAM:
+    - 'Installation': 'Using-ADAM/Installation.md'
+  - Changelog:
+    - 'Server': 'Changelog/ADAMServerChangeLog.md'
+    - 'Plugin': 'Changelog/ADAMPluginChangeLog.md'
+theme: readthedocs
+docs_dir: Markdown
+site_dir: ../public/Documentation/

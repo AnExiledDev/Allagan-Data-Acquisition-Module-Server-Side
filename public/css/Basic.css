@@ -1,0 +1,291 @@
+header, main, footer {
+    padding-left: 300px;
+}
+
+@media only screen and (max-width : 992px) {
+    header, main, footer {
+        padding-left: 0;
+    }
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    color: #dddddd;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+.nav-wrapper
+{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.card-panel-row .card-panel
+{
+    margin-right: 10px;
+}
+
+.card-panel-row p
+{
+    color: #ed6d1a;
+}
+
+.card-panel-row p.super-small
+{
+    color: #ffffff;
+}
+
+.card-panel h5
+{
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.card-panel p
+{
+    margin: 0;
+}
+
+.super-small
+{
+    font-size: 50%;
+}
+
+.card-panel
+{
+    padding-bottom: 10px;
+}
+
+.card-panel-title
+{
+    border-bottom: 2px solid #ed6d1a;
+}
+
+.card-panel-title h4
+{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 500;
+}
+
+.card-panel-content
+{
+    margin-top: 10px;
+}
+
+.card-panel-content span a
+{
+    border-left: 3px solid #dddddd;
+    display: inline-block;
+    padding-left: 10px;
+    margin-bottom: 5px;
+}
+
+.card-panel-content .btn-large
+{
+    height: 3rem;
+    line-height: 45px;
+    z-index: 0;
+}
+
+#chat-tabs
+{
+    overflow: auto;
+}
+
+#chat-tabs a
+{
+    color: #ffffff;
+}
+
+#chat-content .tabs-pane
+{
+    overflow: auto;
+    font-size: 90%;
+    font-weight: 500;
+}
+
+.heavy-bold
+{
+    font-weight: 500;
+}
+
+.footer-fixed
+{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+select,
+.input-field input
+{
+    border: 1px solid #DDDDDD
+}
+
+.row
+{
+    margin-bottom: 0;
+}
+
+.page-footer .row
+{
+    margin-bottom: 20px;
+}
+
+
+.side-nav
+{
+    background-color: #282828;
+}
+
+body
+{
+    background-color: #2f323b;
+}
+
+main
+{
+    margin-bottom: 150px;
+}
+
+nav
+{
+    background-color: #202125;
+}
+
+footer.page-footer,
+.card-panel
+{
+    background-color: #202125;
+}
+
+.side-nav.fixed a
+{
+    color: #ffffff;
+}
+
+.material-icons
+{
+    color: #ffffff !important;
+}
+
+.side-nav li
+{
+    line-height: 0;
+}
+
+.divider
+{
+    background-color: #ed6d1a;
+    height: 2px;
+}
+
+.browser-default
+{
+    background-color: transparent;
+}
+
+.btn-large,
+.btn
+{
+    background-color: transparent;
+    border: 1px solid #dddddd;
+}
+
+.btn-large:hover,
+.btn:hover
+{
+    background-color: #ed6d1a;
+}
+
+option
+{
+    background-color: #202125;
+}
+
+#announcement
+{
+    font-size: 80%;
+}
+
+.dropdown-content li>a
+{
+    background-color: #202125;
+    color: #dddddd;
+}
+
+.modal
+{
+    background-color: #202125;
+}
+
+.modal .modal-footer
+{
+    background-color: #33363C;
+}
+
+.modal-content h4
+{
+    border-bottom: 2px solid #ed6d1a;
+    padding-bottom: 3px;
+}
+
+#chat-tabs .active
+{
+    border-left: 3px solid #5e3e92;
+}
+
+#chat-tabs .unread
+{
+    border-left: 3px solid #ed6d1a;
+}
+
+a
+{
+    color: #64c2ca;
+}
+
+a:hover
+{
+    color: #5e3e92;
+    cursor: pointer;
+}
+
+.input-field input
+{
+    padding-left: 5px;
+}
+
+#ItemsCraftedList,
+#ItemsGatheredList
+{
+    overflow: auto;
+}
+
+td,
+th
+{
+    padding: 5px;
+}
+
+table.striped > tbody > tr:nth-child(odd)
+{
+    background-color: #33363C;
+}
+
+.dropdown-content li:hover,
+.dropdown-content li.active,
+.dropdown-content li.selected
+{
+    background-color: #33363C;
+}
